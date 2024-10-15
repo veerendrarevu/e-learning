@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Learning Website</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css homepage.css') }}">
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header class="header">
+
+    <a href="#" class="logo"> <i class="fas fa-graduation-cap"></i> E-learning website </a>
+
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#features">materials</a>
+        <a href="#categories">courses</a>
+        <a href="#categories1">playlist</a>
+        <a href="#footer">contact us</a>
+        
+    </nav>
+
+
+
+    <form action="C:\Users\kishore\Documents\home page\homepage\banner-bg.webp" class="search-form">
+        <input type="search" id="search-box" placeholder="search here...">
+        <label for="search-box" class="fas fa-search"></label>
+    </form>
+
+
+
+    
+
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+    
+
+    <div class="content">
+        <img src="static/images/project pics.jpg" class="content">
+        
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- features section starts  -->
+
+<section class="features" id="features">
+
+    <h1 class="heading"> sem <span>materials</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="static/image/feature-img-1.png" alt="">
+            <h3>JNTUK SEMISTER 1 <br> MATERIAL DOWNLOAD</h3>
+            
+            <a href="/sem1" class="btn">GO TO DOWNLOADS</a>
+        </div>
+
+        <div class="box">
+            <img src="image/feature-img-2.png" alt="">
+            <h3>JNTUK SEMISTER 2 <br> MATERIAL DOWNLOAD</h3>
+            
+            <a href="/sem2" class="btn">GO TO DOWNLOADS</a>
+        </div>
+
+        <div class="box">
+            <img src="image/feature-img-3.png" alt="">
+            <h3>JNTUK SEMISTER 3 <br> MATERIAL DOWNLOAD</h3>
+            
+            <a href="/sem3" class="btn">GO TO DOWMLOADS</a>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- features section ends -->
+
+<!--  section playlist tarts  -->
+
+<section class="categories" id="categories">
+
+    <h1 class="heading">course  <span>playlist</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="static/images/js.jpg" alt="">
+            <h3>JAVASCRIPT complete complete course</h3>
+            <p>upto 100% off</p>
+            <a href="/js" class="btn">watch now</a>
+        </div>
+
+        <div class="box">
+            <img src="static/images/html.jpg" alt="">
+            <h3>HTML complete course</h3>
+            <p>upto 100% off</p>
+            <a href="html" class="btn">watch now</a>
+        </div>
+
+        <div class="box">
+            <img src="static/images/css.jpg" alt="">
+            <h3>CSS complete course</h3>
+            <p>upto 100% off</p>
+            <a href="/css" class="btn">watch now</a>
+        </div>
+
+        
+    
+
+</section>
+
+<!-- playlist section ends -->
+
+
+
+<!--  section playlist tarts  -->
+
+<section class="categories" id="categories1">
+
+    <h1 class="heading">course  <span>playlist</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="static/images/M1.jpg" alt="">
+            <h3>JNTUK MATHS 1 CSE</h3>
+            <p>upto 100% off</p>
+            <a href="/m1" class="btn">watch now</a>
+        </div>
+
+        <div class="box">
+            <img src="static/images/M2.jpg" alt="">
+            <h3>JNTUK MATHS 2 CSE</h3>
+            <p>upto 100% off</p>
+            <a href="/m2" class="btn">watch now</a>
+        </div>
+
+        <div class="box">
+            <img src="static/images/M3.jpg" alt="">
+            <h3>JNTUK MATHS 3 CSE</h3>
+            <p>upto 100% off</p>
+            <a href="/m3" class="btn">watch now</a>
+        </div>
+    </div>
+    <div class="box-container">
+
+        <div class="box">
+            <img src="static/images/physics.jpg" alt="">
+            <h3>JNTUK PHYSICS</h3>
+            <p>upto 100% off</p>
+            <a href="/physics" class="btn">watch now</a>
+        </div>
+
+        <div class="box">
+            <img src="static/images/CHEMISTERY.jpeg" alt="">
+            <h3>JNTUK CHEMISTERY</h3>
+            <p>upto 100% off</p>
+            <a href="/chemistry" class="btn">watch now</a>
+        </div>
+
+        <div class="box">
+            <img src="static/images/ds.jpg" alt="">
+            <h3>JNTUK DATA STRUCTUERS</h3>
+            <p>upto 100% off</p>
+            <a href="/ds" class="btn">watch now</a>
+        </div>
+    </div>
+
+        
+    
+
+</section>
+
+<!-- playlist section ends -->
+
+
+<!-- review section ends -->
+<section class="review" id="review">
+    <h1 class="heading"> Customer's <span>Reviews</span> </h1>
+    <div class="swiper review-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide box">
+                <img src="path/to/images/pic-1.png" alt="Customer 1">
+                <p>How's our website....</p>
+                <h3>Veerendra</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+            <!-- Add more reviews as needed -->
+        </div>
+    </div>
+</section>
+
+
+<form id="feedbackForm">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" required></textarea>
+
+    <button type="button" onclick="submitForm()">Submit</button>
+</form>
+
+<script>
+    function submitForm() {
+        const name = document.getElementById('name').value;
+        const email = document.getElementById('email').value;
+        const message = document.getElementById('message').value;
+
+        fetch('/submit', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({ name, email, message })
+        })
+        .then(response => response.json())
+        .then(data => {
+            if (data.success) {
+                alert('Data submitted successfully!');
+            } else {
+                alert('Failed to submit data. Please try again.');
+            }
+        })
+        .catch(error => {
+            console.error('Error:', error);
+            alert('An error occurred. Please try again later.');
+        });
+    }
+</script>
+
+
+
+<!-- footer section starts  -->
+
+<section class="footer" id="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="#" class="links"> <i class="fas fa-phone"></i> +918367670706 </a>
+            
+            <a href="#" class="links"> <i class="fas fa-envelope"></i> aihackthon@gmail.com </a>
+            <a href="#" class="links"> <i class="fas fa-map-marker-alt"></i> kakinada,AP,india </a>
+        </div>
+
+        
+
+        
+
+    
+
+</section>
+
+<!-- footer section ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
